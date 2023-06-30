@@ -10,7 +10,7 @@ let contador = 0
 let resultado1=[]
 let precio = 0
 const getData = async () => {
-    const URL_API = "../data/db.json";
+    const URL_API = "./data/db.json";
     const response = await fetch(URL_API);
     data = await response.json();
     dataFiltered = data.categorias;
