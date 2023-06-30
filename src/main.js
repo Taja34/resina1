@@ -4,7 +4,7 @@ let data = {
       "nombre":"Pisos",
       "opciones":[{
           "nombre":"dos colores",
-          "imagen":"./img/pisos/dos colores/muestra.jpeg",
+          "imagen":"./src/img/pisos/dos colores/muestra.jpeg",
           "opcions":[{
               "nombre":"marmoleo",
               "imagen":"./img/pisos/dos colores/pisos1.jpeg",
@@ -47,7 +47,7 @@ let data = {
       "imagen":"./img/mesas/dos colores/muestra.jpeg",
       "opcions":[{
           "nombre":"marmoleo",
-          "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+          "imagen:":"./img/pisos/tres colores/pisos1.jpeg",
           "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
           "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
           "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
@@ -137,6 +137,7 @@ contcards.innerHTML='';
     contcards.innerHTML +=`
     <div class="category" id="${element.nombre}">
     <h3>${element.nombre}</h3>
+  
     <p></p>
   </div>
         `
@@ -151,10 +152,13 @@ function agregarPuntosDeMil(numero) {
 let renderCards = (data) =>{
   contcards.innerHTML='';
       data.forEach((element)=>{
+        console.log(element.imagen)
       contcards.innerHTML +=`
-      <div class="product" id="${element.nombre}">
-      <img src="${element.imagen}" class="btnHeart" id="${element.nombre}"  alt="Producto 1">
       <h3 class="subTitulo">${element.nombre}</h3>
+      <div class="product" id="${element.nombre}">
+    
+      <img src="${element.imagen}" class="btnHeart" id="${element.nombre}"  alt="Producto 1">
+   
       <p></p>
     </div>
           `

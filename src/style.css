@@ -23,9 +23,12 @@
       width: 700px;
       height: 400px;
       
-      border: 2px solid #000000;
+    
       border-radius: 5px;
       text-align: center;
+      -webkit-box-shadow: 0px 10px 38px -6px rgba(0,0,0,0.61);
+-moz-box-shadow: 0px 10px 38px -6px rgba(0,0,0,0.61);
+box-shadow: 0px 10px 38px -6px rgba(0,0,0,0.61);
     }
 
     .product img {
