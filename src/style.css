@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
     /* Estilos para la página */
     body {
       
-      font-family: Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       margin: 0;
       background-image: url('./img/fondo.jpeg');
       background-repeat: repeat;
@@ -11,9 +11,10 @@
       overflow: hidden;
     }
     .tituloLogo{
+      font-weight: bold;
       font-family: 'Montserrat', sans-serif;
       color: #DDBD81;
-      font-size: 100px;
+      font-size: 200px;
     }
 
     /* Estilos para los productos */
@@ -67,10 +68,10 @@
 margin-top: 150px;
       }
       .category{
-        width: 80%;
+        width: 100%;
         height: 100px;
-        border: 1px solid rgb(194, 191, 191);
-        border-radius: 50px;
+       
+       
         margin: auto;
         margin-top: 10px;
         align-items: center;
@@ -85,6 +86,9 @@ margin-top: 150px;
     #flecha{
       width: 100px;
       height: 100px;
+      position: absolute;
+      left: 1px;
+      bottom: 0;
     }
     .image-collage {
       margin: auto;

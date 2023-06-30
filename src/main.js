@@ -1,4 +1,120 @@
-let data = []
+let data = {
+  "categorias":[{
+
+      "nombre":"Pisos",
+      "opciones":[{
+          "nombre":"dos colores",
+          "imagen":"./img/pisos/dos colores/muestra.jpeg",
+          "opcions":[{
+              "nombre":"marmoleo",
+              "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+              "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+              "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+              "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+              "precio":20000
+                          }]
+      },
+  {
+      "nombre":"tres colores",
+      "imagen":"./img/pisos/tres colores/muestra.jpeg",
+      "opcions":[{
+          "nombre":"marmoleo",
+          "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+          "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
+          "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
+          "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+          "precio":2000
+                      }]
+  }]
+        
+  },{
+
+      "nombre":"Mesas",
+      "opciones":[
+  {
+      "nombre":"dos colores",
+      "imagen":"./img/mesas/dos colores/muestra.jpeg",
+      "opcions":[{
+          "nombre":"marmoleo",
+          "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+          "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+          "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+          "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+          "precio":2000
+                      }]
+  },{
+      "nombre":"tres colores",
+      "imagen":"./img/mesas/dos colores/muestra.jpeg",
+      "opcions":[{
+          "nombre":"marmoleo",
+          "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+          "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
+          "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
+          "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+          "precio":2000
+                      }]
+  }]
+        
+  },{
+
+      "nombre":"Mesones",
+      "opciones":[{
+          "nombre":"dos colores",
+          "imagen":"./img/mesones/dos colores/muestra.jpeg",
+          "opcions":[{
+              "nombre":"marmoleo",
+              "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+              "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+              "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+              "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+              "precio":2000
+                          }]
+      },
+  {
+      "nombre":"dos colores",
+      "imagen":"./img/mesones/tres colores/muestra.jpeg",
+      "opcions":[{
+          "nombre":"marmoleo",
+          "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+          "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+          "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+          "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+          "precio":2000
+                      }]
+  }]
+        
+  },{
+
+      "nombre":"Paredes",
+      "opciones":[{
+          "nombre":"dos colores",
+          "imagen":"./img/paredes/dos colores/muestra.jpeg",
+          "opcions":[{
+              "nombre":"marmoleo",
+              "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+              "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+              "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+              "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+              "precio":2000
+                          }]
+      },
+  {
+      "nombre":"tres colores",
+      "imagen":"./img/paredes/tres colores/muestra.jpeg",
+      "opcions":[{
+          "nombre":"marmoleo",
+          "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+          "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
+          "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
+          "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+          "precio":2.000
+                      }]
+  }]
+        
+  }]
+
+
+}
 let favoritos = JSON.parse(localStorage.getItem("favoritospage")) || [];
 let dataFiltered =[]
 let contcards = document.getElementById('cont-cards')
@@ -9,18 +125,13 @@ let btnSearch = document.getElementById('btnSearch')
 let contador = 0
 let resultado1=[]
 let precio = 0
-const getData = async () => {
-    const URL_API = "http://127.0.0.1:3000/data/db.json";
-    const response = await fetch(URL_API);
-    data = await response.json();
-    dataFiltered = data.categorias;
-    console.log(dataFiltered);
-    renderOptions()
- 
-  };
-  getData()
+
  
   let renderOptions = () =>{
+    console.log(data)
+    dataFiltered =data.categorias
+    
+    console.log(dataFiltered)
 contcards.innerHTML='';
     dataFiltered.forEach((element)=>{
     contcards.innerHTML +=`
@@ -32,6 +143,7 @@ contcards.innerHTML='';
     }
     )
 }
+renderOptions()
 function agregarPuntosDeMil(numero) {
   return numero.toLocaleString();
 }
@@ -145,7 +257,8 @@ let renderCards = (data) =>{
     }
    if (prueba1 === "flecha") {
     console.log(prueba)
-    getData()
+    renderOptions(data.categorias)
+    console.log(data)
    }
    
       });
