@@ -1,0 +1,117 @@
+{
+    "categorias":[{
+
+        "nombre":"Pisos",
+        "opciones":[{
+            "nombre":"dos colores",
+            "imagen":"./img/pisos/dos colores/muestra.jpeg",
+            "opcions":[{
+                "nombre":"marmoleo",
+                "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+                "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+                "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+                "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+                "precio":20000
+                            }]
+        },
+    {
+        "nombre":"tres colores",
+        "imagen":"./img/pisos/tres colores/muestra.jpeg",
+        "opcions":[{
+            "nombre":"marmoleo",
+            "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+            "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
+            "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
+            "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+            "precio":2000
+                        }]
+    }]
+          
+    },{
+
+        "nombre":"Mesas",
+        "opciones":[
+    {
+        "nombre":"dos colores",
+        "imagen":"./img/mesas/dos colores/muestra.jpeg",
+        "opcions":[{
+            "nombre":"marmoleo",
+            "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+            "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+            "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+            "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+            "precio":2000
+                        }]
+    },{
+        "nombre":"tres colores",
+        "imagen":"./img/mesas/dos colores/muestra.jpeg",
+        "opcions":[{
+            "nombre":"marmoleo",
+            "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+            "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
+            "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
+            "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+            "precio":2000
+                        }]
+    }]
+          
+    },{
+
+        "nombre":"Mesones",
+        "opciones":[{
+            "nombre":"dos colores",
+            "imagen":"./img/mesones/dos colores/muestra.jpeg",
+            "opcions":[{
+                "nombre":"marmoleo",
+                "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+                "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+                "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+                "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+                "precio":2000
+                            }]
+        },
+    {
+        "nombre":"dos colores",
+        "imagen":"./img/mesones/tres colores/muestra.jpeg",
+        "opcions":[{
+            "nombre":"marmoleo",
+            "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+            "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+            "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+            "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+            "precio":2000
+                        }]
+    }]
+          
+    },{
+
+        "nombre":"Paredes",
+        "opciones":[{
+            "nombre":"dos colores",
+            "imagen":"./img/paredes/dos colores/muestra.jpeg",
+            "opcions":[{
+                "nombre":"marmoleo",
+                "imagen":"./img/pisos/dos colores/pisos1.jpeg",
+                "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
+                "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
+                "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+                "precio":2000
+                            }]
+        },
+    {
+        "nombre":"tres colores",
+        "imagen":"./img/paredes/tres colores/muestra.jpeg",
+        "opcions":[{
+            "nombre":"marmoleo",
+            "imagen":"./img/pisos/tres colores/pisos1.jpeg",
+            "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
+            "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
+            "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+            "precio":2.000
+                        }]
+    }]
+          
+    }]
+  
+
+  }
