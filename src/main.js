@@ -7,22 +7,22 @@ let data = {
           "imagen":"./src/img/pisos/dos colores/muestra.jpeg",
           "opcions":[{
               "nombre":"marmoleo",
-              "imagen":"./img/pisos/dos colores/pisos1.jpeg",
-              "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
-              "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
-              "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+              "imagen":"./src/img/pisos/dos colores/pisos1.jpeg",
+              "imagen2":"./src/img/pisos/dos colores/pisos2.jpeg",
+              "imagen3":"./src/img/pisos/dos colores/pisos3.jpeg",
+              "imagen4":"./src/img/pisos/dos colores/pisos4.jpeg",
               "precio":20000
                           }]
       },
   {
       "nombre":"tres colores",
-      "imagen":"./img/pisos/tres colores/muestra.jpeg",
+      "imagen":"./src/img/pisos/tres colores/muestra.jpeg",
       "opcions":[{
           "nombre":"marmoleo",
-          "imagen":"./img/pisos/tres colores/pisos1.jpeg",
-          "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
-          "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
-          "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+          "imagen":"./src/img/pisos/tres colores/pisos1.jpeg",
+          "imagen2":"./src/img/pisos/tres colores/pisos2.jpeg",
+          "imagen3":"./src/img/pisos/tres colores/pisos3.jpeg",
+          "imagen4":"./src/img/pisos/tres colores/pisos4.jpeg",
           "precio":2000
                       }]
   }]
@@ -33,24 +33,24 @@ let data = {
       "opciones":[
   {
       "nombre":"dos colores",
-      "imagen":"./img/mesas/dos colores/muestra.jpeg",
+      "imagen":"./src/img/mesas/dos colores/muestra.jpeg",
       "opcions":[{
           "nombre":"marmoleo",
-          "imagen":"./img/pisos/dos colores/pisos1.jpeg",
-          "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
-          "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
-          "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+          "imagen":"./src/img/pisos/dos colores/pisos1.jpeg",
+          "imagen2":"/src./img/pisos/dos colores/pisos2.jpeg",
+          "imagen3":"./src/img/pisos/dos colores/pisos3.jpeg",
+          "imagen4":"./src/img/pisos/dos colores/pisos4.jpeg",
           "precio":2000
                       }]
   },{
       "nombre":"tres colores",
-      "imagen":"./img/mesas/dos colores/muestra.jpeg",
+      "imagen":"./src/img/mesas/dos colores/muestra.jpeg",
       "opcions":[{
           "nombre":"marmoleo",
-          "imagen:":"./img/pisos/tres colores/pisos1.jpeg",
-          "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
-          "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
-          "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+          "imagen:":"./src/img/pisos/tres colores/pisos1.jpeg",
+          "imagen2":"./src/img/pisos/tres colores/pisos2.jpeg",
+          "imagen3":"./src/img/pisos/tres colores/pisos3.jpeg",
+          "imagen4":"./src/img/pisos/tres colores/pisos4.jpeg",
           "precio":2000
                       }]
   }]
@@ -60,25 +60,25 @@ let data = {
       "nombre":"Mesones",
       "opciones":[{
           "nombre":"dos colores",
-          "imagen":"./img/mesones/dos colores/muestra.jpeg",
+          "imagen":"./src/img/mesones/dos colores/muestra.jpeg",
           "opcions":[{
               "nombre":"marmoleo",
-              "imagen":"./img/pisos/dos colores/pisos1.jpeg",
-              "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
-              "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
-              "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+              "imagen":"./src/img/pisos/dos colores/pisos1.jpeg",
+              "imagen2":"./src/img/pisos/dos colores/pisos2.jpeg",
+              "imagen3":"./src/img/pisos/dos colores/pisos3.jpeg",
+              "imagen4":"./src/img/pisos/dos colores/pisos4.jpeg",
               "precio":2000
                           }]
       },
   {
       "nombre":"dos colores",
-      "imagen":"./img/mesones/tres colores/muestra.jpeg",
+      "imagen":"./src/img/mesones/tres colores/muestra.jpeg",
       "opcions":[{
           "nombre":"marmoleo",
-          "imagen":"./img/pisos/dos colores/pisos1.jpeg",
-          "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
-          "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
-          "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+          "imagen":"./src/img/pisos/dos colores/pisos1.jpeg",
+          "imagen2":"./src/img/pisos/dos colores/pisos2.jpeg",
+          "imagen3":"./src/img/pisos/dos colores/pisos3.jpeg",
+          "imagen4":"./src/img/pisos/dos colores/pisos4.jpeg",
           "precio":2000
                       }]
   }]
@@ -88,25 +88,25 @@ let data = {
       "nombre":"Paredes",
       "opciones":[{
           "nombre":"dos colores",
-          "imagen":"./img/paredes/dos colores/muestra.jpeg",
+          "imagen":"./src/img/paredes/dos colores/muestra.jpeg",
           "opcions":[{
               "nombre":"marmoleo",
-              "imagen":"./img/pisos/dos colores/pisos1.jpeg",
-              "imagen2":"./img/pisos/dos colores/pisos2.jpeg",
-              "imagen3":"./img/pisos/dos colores/pisos3.jpeg",
-              "imagen4":"./img/pisos/dos colores/pisos4.jpeg",
+              "imagen":"./src/img/pisos/dos colores/pisos1.jpeg",
+              "imagen2":"./src/img/pisos/dos colores/pisos2.jpeg",
+              "imagen3":"./src/img/pisos/dos colores/pisos3.jpeg",
+              "imagen4":"./src/img/pisos/dos colores/pisos4.jpeg",
               "precio":2000
                           }]
       },
   {
       "nombre":"tres colores",
-      "imagen":"./img/paredes/tres colores/muestra.jpeg",
+      "imagen":"./src/img/paredes/tres colores/muestra.jpeg",
       "opcions":[{
           "nombre":"marmoleo",
-          "imagen":"./img/pisos/tres colores/pisos1.jpeg",
-          "imagen2":"./img/pisos/tres colores/pisos2.jpeg",
-          "imagen3":"./img/pisos/tres colores/pisos3.jpeg",
-          "imagen4":"./img/pisos/tres colores/pisos4.jpeg",
+          "imagen":"./src/img/pisos/tres colores/pisos1.jpeg",
+          "imagen2":"./src/img/pisos/tres colores/pisos2.jpeg",
+          "imagen3":"./src/img/pisos/tres colores/pisos3.jpeg",
+          "imagen4":"./src/img/pisos/tres colores/pisos4.jpeg",
           "precio":2.000
                       }]
   }]
